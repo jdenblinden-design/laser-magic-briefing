@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no">
+<title>Briefing Jungle</title>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Briefing Jungle">
+<meta name="theme-color" content="#06140b">
+<link rel="manifest" href="manifest-jungle.json">
+<link rel="apple-touch-icon" href="img/icon-jungle-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="jungle" data-room="jungle">
+<header class="top">
+  <h1>LASER MAGIC · <span>JUNGLE</span></h1>
+  <div class="status"><span id="stxt">…</span><span class="bar"><i></i></span><button id="dl" hidden>Télécharger les vidéos</button></div>
+</header>
+<main id="menu"></main>
+<div id="player"><button id="close">✕ Fermer</button><video id="video" playsinline controls preload="auto"></video></div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
